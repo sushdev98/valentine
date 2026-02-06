@@ -264,7 +264,7 @@
       I know we already do this love thing every day, but I still want to ask you properly.
     </p>
 
-    <p class="question">Will you be my Valentine this year? 🥺👉👈</p>
+    <p class="question">Will you be my Valentine for this year and forever? 🥺</p>
 
     <div class="buttons">
       <button id="yesBtn">Yes 😌</button>
@@ -273,10 +273,11 @@
 
     <p class="hint" id="hintText">Careful… there is only one correct answer 👀</p>
 
-    <div id="finalMessage" class="final-message hidden">
-      Yaaay! You just made me the happiest idiot on the planet.  
-      Thank you for saying yes – now you officially owe me:
-      cozy hugs, good food, and at least one cute Valentine’s date with you. 💐✨
+   <div id="finalMessage" class="final-message hidden">
+  Yaaay ❤️  
+  Okay, this actually made my day.  
+  Thank you for saying yes, Anagha.  
+  I'm really lucky to have you, and I can't wait to spend Valentine’s Day with you.
     </div>
   </div>
 
@@ -338,7 +339,7 @@
       if (noClickCount === 1) {
         hintText.textContent = "Hahaha, nope. You can’t say no that easily 😏";
       } else if (noClickCount === 3) {
-        hintText.textContent = "I’m not accepting this answer, madam. Try again. 😌";
+        hintText.textContent = "I’m not accepting this answer. Try again. 😌";
       } else if (noClickCount >= 5) {
         hintText.textContent = "Okay now you HAVE to press Yes. Contract rules. 📜";
         const scale = Math.max(0.4, 1 - noClickCount * 0.08);
@@ -356,7 +357,7 @@
       yesBtn.style.opacity = "0.8";
       noBtn.style.opacity = "0.3";
 
-      hintText.textContent = "Good answer. I love you. 💖";
+      hintText.textContent = "Good answer. I love you so much baby. 💖";
 
       // Burst hearts around the click
       for (let i = 0; i < 10; i++) {
